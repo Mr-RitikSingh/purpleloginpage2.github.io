@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second purple login page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@650&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <style>
+        *{
+            
+            margin: 0px;
+        }
+        .maindiv{
+            display: flex;
+            width: 100%;
+        }
+        .first{
+            width: 55%;
+        }
+        .second{
+            border: 1px solid black;
+            width: 45%;
+        }
+        .image{
+            background-image: url(purple3.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 640px;
+        }
+        .logo{
+            margin-left: 30px;
+        }
+        .welcome{
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+            font-size: 50px;
+            margin-top: 90px;
+            margin-left: 130px;
+        }
+        .a{
+            font-family: 'Noto Sans', sans-serif;
+            color: white;
+            font-size: 15px;
+            margin-top: 30px;
+            margin-left: 330px;
+            font-weight: lighter;
+        }
+        .web{
+            font-family: 'Noto Sans', sans-serif;
+            text-decoration: none;
+            color: white;
+            font-size: 13px;
+            display: inline-block;
+            margin-top: 265px;
+        }
+        .second2{
+            border: 2npx solid black;
+            margin-top: 70px;
+            margin-left: 100px;
+        }
+        .signin{
+            font-family: 'Noto Sans', sans-serif;
+            font-size: 27px;
+            font-weight: bolder;
+        }
+        .email{
+            border: none;
+            margin-top: 35px;
+            width: 350px;
+            height: 40px;
+        }
+        .hr1{
+            width: 350px;
+            margin-top: 0px;
+            height: 3px;
+            background-image: linear-gradient(to right, purple , pink);
+        }
+        .password{
+            border: none;
+            margin-top: 15px;
+            width: 350px;
+            height: 40px;
+        }
+        .hr2{
+            width: 350px;
+            margin-top: 0px;
+            height: 3px;
+            background-image: linear-gradient(to right, purple , pink);
+        }
+        .continue{
+            width: 200px;
+            margin-top: 50px;
+            height: 30px;
+            background-image: linear-gradient(to right, purple , rgb(255, 0, 139));
+            padding-left: 150px;
+            padding-top: 10px;
+            cursor: pointer;
+        }
+        .b{
+            font-family: 'Noto Sans', sans-serif;
+            text-decoration: none;
+            color: white;
+            font-size: 13px;
+        }
+        .or{
+            font-family: 'Noto Sans', sans-serif;
+            font-size: 13px;
+            margin-top: 30px;
+            margin-left: 85px;
+        }
+        .twitter{
+            width: 200px;
+            margin-top: 40px;
+            height: 30px;
+            background-image: linear-gradient(to right,  rgb(5, 170, 249), rgb(5, 250, 200));
+            padding-left: 150px;
+            padding-top: 10px;
+            cursor: pointer;
+            display: flex;
+            text-align: center;
+        }
+        .twitterimg{
+            width: 40px;
+            display: inline-block;
+            margin-left: -130px;
+            margin-top: -10px;
+        }
+        .sign2{
+            font-family: 'Noto Sans', sans-serif;
+            font-size: 13px;
+            display: inline-block;
+            color: white;
+            margin-left: 15px;
+        }
+        .facebook{
+            width: 200px;
+            margin-top: 10px;
+            height: 30px;
+            background-image: linear-gradient(to right,  rgb(56, 88, 153), rgb(92, 142, 241));
+            padding-left: 150px;
+            padding-top: 10px;
+            cursor: pointer;
+            display: flex;
+            text-align: center;
+        }
+        .facebookimg{
+            width: 35px;
+            height: 36px;
+            display: inline-block;
+            margin-left: -130px;
+            margin-top: -10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="maindiv">
+        <div class="first">
+            <div class="image">
+                <div class="logo"><img src="audi.png" width="150px">
+                <p class="welcome">Welcome Page</p>
+                <p class="a">Sign in to <br> continue access</p>
+                <a href="www.google.com"  class="web"><p>www.google.com</p></a>
+                </div>
+            </div>
+        </div>
+        <div class="second">
+            <div class="second2">
+                <div class="signin"><b>Sign In</b></div>
+                <input type="email" placeholder="Email Address" class="email">
+                <div class="hr1"></div>
+                <input type="password" placeholder="Password" class="password">
+                <div class="hr2"></div>
+                <div class="continue"><a href="javascript:void(0)" class="b">CONTINUE</a></div>
+                <div class="or">or Connect with Social Media</div>
+                <div class="twitter"><img src="twitter2.png" class="twitterimg"><p class="sign2">Sign in With Twitter</p></div>
+                <div class="facebook"><img src="facebook4.png" class="facebookimg"><p class="sign2">Sign in With Facebook</p></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
